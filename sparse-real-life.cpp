@@ -24,7 +24,7 @@ int main(){
 				char var;
 				
 				if(city[i]!=city[j]){
-				      cout<<"id flight avaible between"<<city[i]<<" and "<<city[j]<< " (y/n) ? ";
+				      cout<<"is flight avaible between "<<city[i]<<" and "<<city[j]<< " (y/n) ? ";
 			   cin>>var;
 			   
 			   if(var=='y'||var=='Y'){
@@ -67,9 +67,10 @@ int main(){
         }
     }
      cout<<"spacre matrix"<<endl;
-    cout<<"rows  column  values"<<endl;;
+    cout<<"rows  column  values"<<endl;
+    cout<<"  "<<num<<"    "<<num<<"    "<<k<<endl;
     for(i=0;i<k;i++){
-        cout<<spa[i][0]<<"    "<<spa[i][1]<<"    "<<spa[i][2]<<endl;
+        cout<<"  "<<spa[i][0]<<"    "<<spa[i][1]<<"    "<<spa[i][2]<<endl;
     }
      cout<<"fligth avaible :"<<endl;
     
