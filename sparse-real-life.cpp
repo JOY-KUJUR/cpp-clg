@@ -22,7 +22,9 @@ int main(){
 	for(i=0;i<num;i++){
 			for(j=0;j<num;j++){
 				char var;
-			   cout<<"id flight avaible between"<<city[i]<<" and "<<city[j]<< " (y/n) ? ";
+				
+				if(city[i]!=city[j]){
+				      cout<<"id flight avaible between"<<city[i]<<" and "<<city[j]<< " (y/n) ? ";
 			   cin>>var;
 			   
 			   if(var=='y'||var=='Y'){
@@ -31,6 +33,10 @@ int main(){
 			   else{
 			   	arr[i][j]=0;
 			   }
+				}
+				
+				
+			 
 			   
 			   
 			
